@@ -16,7 +16,7 @@ const skills = [
 
 function editSkill(req, res) {
     skill.findById(req.params.id, function(err, skill){
-        res.render("/skills/edits")
+        res.render("/skills/edits    ")
     })
 }
 
